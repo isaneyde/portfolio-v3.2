@@ -1,0 +1,91 @@
+ /*Variáveis*/
+ :root {
+  /*colors*/
+  --black:#180F0F ;
+  --white:#FFFFFF;
+  --primary: #E0B1CB;
+  --secondary: #9F86C0;
+
+  /*Typography*/
+  --tile1: 2.5rem;
+  --tile2: 2rem;
+  --title3: 1.75rem;
+  --paragraph: 1rem;
+}
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    scroll-behavior: smooth;
+  }
+
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  
+  header {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header > nav {
+    display: flex;
+    gap: 200px;
+    
+    
+  }
+  
+  header > nav > a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 300;
+    font-size: var(--paragraph);
+  }
+  
+  header > section {
+    display: flex;
+    gap: 8px;
+  }
+  main{
+    flex: 1;
+    padding: 20px;
+  }
+
+footer {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  color: var(--white);
+  gap: 50px;
+}
+  footer> img{
+    width:40px ;
+    height:40px ;
+
+  }
+  footer> figcaption{
+    display: flex;
+    padding:30px;
+    color: var(--white);
+  }
+  footer>p{
+    justify-content: flex-start;
+  }
+  

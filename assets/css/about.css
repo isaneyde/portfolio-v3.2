@@ -1,0 +1,18 @@
+div{
+    border: 1px solid #9747FF;
+    width: 10px;
+    height: 10px;
+    background-color: #9747FF;
+    color: black; 
+   border-radius: 100%;
+    
+   
+}
+section>div>p{
+    display: inline-block;
+}
+hr{
+    width: 800px;
+    color: #9747FF;
+   font-size: larger;
+}
