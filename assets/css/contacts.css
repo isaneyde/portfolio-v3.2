@@ -1,9 +1,9 @@
-main{
-    background-image: url("/assets/img/background.jpg");
+body{
+   background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
-   
+    background-attachment: fixed;
+  
 }
 h1{
     color: white;
@@ -27,17 +27,32 @@ a{
     text-decoration: none;
     color: #9F86C0;
 }
+#tel{
+    color: white;
+}
 section> div{
+    padding: 40px;
     margin-top: 40px;
     background-color: white;
     opacity: 0.5;
     border-radius:10px ;
     display: flex;
     flex-direction: column;
-
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 350px;
 }
+.social-media{
+    display: flex;
+}
+.social-media>img{
+    width:40px; 
+    height:40px;
+    margin: 20px 20px;
+}
+.social-media>img>button>a{
+font-weight: 700;
+}
+
 
 
 

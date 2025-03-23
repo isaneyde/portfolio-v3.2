@@ -18,6 +18,12 @@ div{
     background-color: #9F86C0;
 
 }
+#first-bullet{
+  margin-left: 30%;
+}
+#second-bullet{
+  margin-right: 30%;
+}
 #img1{
   width: 223px;
   height: 485px;  
